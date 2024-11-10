@@ -4,6 +4,9 @@ Tired of letter 'O' being so simple and boring?
 This *very* useful Chrome extension that *certainly* was *not* a total waste of time to create
 replaces all standard letters 'o' with different variants.
 
+**WARNING**: This extension is not tested very well. It also does not replace attribute values.
+
+
 ### Replacement variants
 ```javascript
 const REPLACEMENTS_UPPER = ['Ꙩ', 'ꙮ', 'Ꙫ', 'Ꙭ', 'Ꚙ', 'Ꚛ', 'Ѻ', 'Ó', 'Õ', 'Ö', 'Ò', 'Ô']
