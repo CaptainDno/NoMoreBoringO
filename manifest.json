@@ -1,0 +1,14 @@
+{
+  "name": "No more boring 'O'",
+  "description": "Replaces standard letter 'O' with random variants of it",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "run_at": "document_start",
+      "js": ["index.js"]
+    }
+  ]
+}
